@@ -91,7 +91,15 @@ google.maps.event.addDomListener(window, 'load', initialize);
                  <td>Alamat</td>
                  <td><h4><?php echo $alamat ?></h4></td>
                </tr>
-               
+               <tr>
+                 <td>latitude</td>
+                 <td><h4><?php echo $lat ?></h4></td>
+               </tr>
+               <tr>
+                 <td>longitude</td>
+                 <td><h4><?php echo $long ?></h4></td>
+               </tr>
+               </table>
             </div>
             </div>
           </div>
